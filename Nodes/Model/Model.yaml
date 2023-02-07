@@ -1,0 +1,32 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: dimension1
+  Id: g=5dd0762edae984e5a1d6128005e7bd8d
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: [0,0,0]
+- Name: dimension2
+  Id: g=792810547776181070325fc56f8aabb0
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: 2
+  ArrayDimensions: [2,2]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [2,2],
+    "Body": [
+     "0","0",
+     "0","0"
+    ]
+   }
+- Name: dimension3
+  Id: g=cd9671b0f5bdc0278203f7b03b763dbd
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: 3
+  ArrayDimensions: [2,2,2]
+  Value: {"Type":10,"Dimensions":[2,2,2],"Body":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]}
